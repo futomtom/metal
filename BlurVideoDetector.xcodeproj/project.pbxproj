@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAEFBFE61EB6895E000F0E02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFBFE51EB6895E000F0E02 /* AppDelegate.swift */; };
+		FAEFBFE81EB6895E000F0E02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFBFE71EB6895E000F0E02 /* ViewController.swift */; };
+		FAEFBFEB1EB6895E000F0E02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEFBFE91EB6895E000F0E02 /* Main.storyboard */; };
+		FAEFBFED1EB6895E000F0E02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEFBFEC1EB6895E000F0E02 /* Assets.xcassets */; };
+		FAEFBFF01EB6895E000F0E02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEFBFEE1EB6895E000F0E02 /* LaunchScreen.storyboard */; };
+		FAEFBFFB1EB68A78000F0E02 /* AVCaptureDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFBFF81EB68A78000F0E02 /* AVCaptureDevice+Extension.swift */; };
+		FAEFBFFC1EB68A78000F0E02 /* VideoCameraType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFBFF91EB68A78000F0E02 /* VideoCameraType.swift */; };
+		FAEFBFFD1EB68A78000F0E02 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFBFFA1EB68A78000F0E02 /* VideoCapture.swift */; };
+		FAEFC0011EB68AE0000F0E02 /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFC0001EB68AE0000F0E02 /* UIViewController+alert.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAEFBFE21EB6895E000F0E02 /* BlurVideoDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurVideoDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEFBFE51EB6895E000F0E02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAEFBFE71EB6895E000F0E02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAEFBFEA1EB6895E000F0E02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAEFBFEC1EB6895E000F0E02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAEFBFEF1EB6895E000F0E02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAEFBFF11EB6895E000F0E02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEFBFF81EB68A78000F0E02 /* AVCaptureDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureDevice+Extension.swift"; sourceTree = "<group>"; };
+		FAEFBFF91EB68A78000F0E02 /* VideoCameraType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCameraType.swift; sourceTree = "<group>"; };
+		FAEFBFFA1EB68A78000F0E02 /* VideoCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		FAEFC0001EB68AE0000F0E02 /* UIViewController+alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAEFBFDF1EB6895E000F0E02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAEFBFD91EB6895E000F0E02 = {
+			isa = PBXGroup;
+			children = (
+				FAEFBFE41EB6895E000F0E02 /* BlurVideoDetector */,
+				FAEFBFE31EB6895E000F0E02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAEFBFE31EB6895E000F0E02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEFBFE21EB6895E000F0E02 /* BlurVideoDetector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAEFBFE41EB6895E000F0E02 /* BlurVideoDetector */ = {
+			isa = PBXGroup;
+			children = (
+				FAEFBFE51EB6895E000F0E02 /* AppDelegate.swift */,
+				FAEFBFE71EB6895E000F0E02 /* ViewController.swift */,
+				FAEFBFE91EB6895E000F0E02 /* Main.storyboard */,
+				FAEFC0001EB68AE0000F0E02 /* UIViewController+alert.swift */,
+				FAEFBFF71EB68A78000F0E02 /* VideoCapture */,
+				FAEFBFEC1EB6895E000F0E02 /* Assets.xcassets */,
+				FAEFBFEE1EB6895E000F0E02 /* LaunchScreen.storyboard */,
+				FAEFBFF11EB6895E000F0E02 /* Info.plist */,
+			);
+			path = BlurVideoDetector;
+			sourceTree = "<group>";
+		};
+		FAEFBFF71EB68A78000F0E02 /* VideoCapture */ = {
+			isa = PBXGroup;
+			children = (
+				FAEFBFF81EB68A78000F0E02 /* AVCaptureDevice+Extension.swift */,
+				FAEFBFF91EB68A78000F0E02 /* VideoCameraType.swift */,
+				FAEFBFFA1EB68A78000F0E02 /* VideoCapture.swift */,
+			);
+			path = VideoCapture;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAEFBFE11EB6895E000F0E02 /* BlurVideoDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEFBFF41EB6895E000F0E02 /* Build configuration list for PBXNativeTarget "BlurVideoDetector" */;
+			buildPhases = (
+				FAEFBFDE1EB6895E000F0E02 /* Sources */,
+				FAEFBFDF1EB6895E000F0E02 /* Frameworks */,
+				FAEFBFE01EB6895E000F0E02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlurVideoDetector;
+			productName = BlurVideoDetector;
+			productReference = FAEFBFE21EB6895E000F0E02 /* BlurVideoDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAEFBFDA1EB6895E000F0E02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = alex;
+				TargetAttributes = {
+					FAEFBFE11EB6895E000F0E02 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6A7K9VGHXX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FAEFBFDD1EB6895E000F0E02 /* Build configuration list for PBXProject "BlurVideoDetector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAEFBFD91EB6895E000F0E02;
+			productRefGroup = FAEFBFE31EB6895E000F0E02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAEFBFE11EB6895E000F0E02 /* BlurVideoDetector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAEFBFE01EB6895E000F0E02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEFBFF01EB6895E000F0E02 /* LaunchScreen.storyboard in Resources */,
+				FAEFBFED1EB6895E000F0E02 /* Assets.xcassets in Resources */,
+				FAEFBFEB1EB6895E000F0E02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAEFBFDE1EB6895E000F0E02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEFBFE81EB6895E000F0E02 /* ViewController.swift in Sources */,
+				FAEFBFFD1EB68A78000F0E02 /* VideoCapture.swift in Sources */,
+				FAEFBFE61EB6895E000F0E02 /* AppDelegate.swift in Sources */,
+				FAEFC0011EB68AE0000F0E02 /* UIViewController+alert.swift in Sources */,
+				FAEFBFFC1EB68A78000F0E02 /* VideoCameraType.swift in Sources */,
+				FAEFBFFB1EB68A78000F0E02 /* AVCaptureDevice+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAEFBFE91EB6895E000F0E02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEFBFEA1EB6895E000F0E02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAEFBFEE1EB6895E000F0E02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEFBFEF1EB6895E000F0E02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAEFBFF21EB6895E000F0E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAEFBFF31EB6895E000F0E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAEFBFF51EB6895E000F0E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6A7K9VGHXX;
+				INFOPLIST_FILE = BlurVideoDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.BlurVideoDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FAEFBFF61EB6895E000F0E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6A7K9VGHXX;
+				INFOPLIST_FILE = BlurVideoDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.BlurVideoDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAEFBFDD1EB6895E000F0E02 /* Build configuration list for PBXProject "BlurVideoDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEFBFF21EB6895E000F0E02 /* Debug */,
+				FAEFBFF31EB6895E000F0E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEFBFF41EB6895E000F0E02 /* Build configuration list for PBXNativeTarget "BlurVideoDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEFBFF51EB6895E000F0E02 /* Debug */,
+				FAEFBFF61EB6895E000F0E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAEFBFDA1EB6895E000F0E02 /* Project object */;
+}
